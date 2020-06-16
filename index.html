@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Exchange APP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body style="background-color: #222831;">
+    <div class="card" style="width: 20rem; margin: 3rem auto;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Currency APP</h5>
+          <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Exchange API</h6>
+          <form action="">
+            <div class="form-group" style="margin-top: 2rem; margin-bottom: 4rem;">
+          <input id="amount" class="form-control" type="number" placeholder="Value">
+            </div>
+            <div class="form-group">
+          <select id="currencyFrom" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>          
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>CHF</option>
+            <option>ISK</option>
+            <option>NOK</option>          
+            <option>HRK</option>
+            <option>RUB</option>
+            <option>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>          
+            <option>CAD</option>
+            <option>CNY</option>
+            <option>HKD</option>
+            <option>IDR</option>          
+            <option>ILS</option>
+            <option>INR</option>
+            <option>KRW</option>
+            <option>MXN</option>          
+            <option>MYR</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>SGD</option>
+            <option>THB</option>          
+            <option>ZAR</option>
+          </select>
+        </div>
+          <p style="text-align: center;">TO</p>
+          <div class="form-group">
+          <select id="currencyTo" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>EUR</option>
+            <option>USD</option>
+            <option>JPY</option>
+            <option>BGN</option>
+            <option>CZK</option>
+            <option>DKK</option>
+            <option>GBP</option>          
+            <option>HUF</option>
+            <option>PLN</option>
+            <option>RON</option>
+            <option>SEK</option>
+            <option>CHF</option>
+            <option>ISK</option>
+            <option>NOK</option>          
+            <option>HRK</option>
+            <option>RUB</option>
+            <option>TRY</option>
+            <option>AUD</option>
+            <option>BRL</option>          
+            <option>CAD</option>
+            <option>CNY</option>
+            <option>HKD</option>
+            <option>IDR</option>          
+            <option>ILS</option>
+            <option>INR</option>
+            <option>KRW</option>
+            <option>MXN</option>          
+            <option>MYR</option>
+            <option>NZD</option>
+            <option>PHP</option>
+            <option>SGD</option>
+            <option>THB</option>          
+            <option>ZAR</option>
+          </select>
+        </div>
+        </form>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; height: 10rem; margin: 3rem auto;">
+        <div class="card-body">
+          <div class="form-group" style="margin-left: 5.8rem;">
+          <span id="fromLabel"><strong>USD</strong></span>&nbsp;&nbsp;to&nbsp;&nbsp;<span id="toLabel"><strong>EUR</strong></span>
+        </div>
+          <form action="">
+            <div class="form-group" style="margin-top: 2rem; margin-bottom: 4rem;">
+          <input id="result" class="form-control" type="number" placeholder="Result" readonly>
+            </div>
+        </div>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="currency.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</html>
